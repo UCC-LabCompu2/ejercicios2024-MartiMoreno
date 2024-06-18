@@ -123,18 +123,17 @@ function dibujarCuadriculado(){
     const canvas =document.getElementById("myCanvas");
     const ctx = canvas.getContext("2d");
     const paso= 20;
-    const anchomax = canvas.weight;
+    const anchomax = canvas.width;
     const alturamax = canvas.height;
 
-    ctx.strokeStyle ="#338899";
-    ctx.moveTo(0, 20);
-    ctx.lineTo(anchomax,20);
-    ctx.stroke();
+
+    //Dibujar lineas horizontales
     for(let i = paso; i<alturamax;){
         ctx.beginPath();
         //Acá dibujo lineas
         ctx.moveTo(0, i);
         ctx.lineTo(anchomax,i);
+        ctx.strokeStyle ="#338899"; //ver
         ctx.stroke();
         ctx.closePath();
         //i =i+paso
@@ -145,13 +144,14 @@ function dibujarCuadriculado(){
     for(let i = paso; i<anchomax;){
         ctx.beginPath();
         //Acá dibujo lineas
-        ctx.moveTo(0, i);
+        ctx.moveTo(i, 0);
         ctx.lineTo(i, alturamax);
         ctx.stroke();
-        ctx.closePath();
+
         //i =i+paso
         i += paso;
     }
+    ctx.closePath();
     //EJE X
     ctx.strokeStyle = "#ff071b";
     ctx.beginPath();
