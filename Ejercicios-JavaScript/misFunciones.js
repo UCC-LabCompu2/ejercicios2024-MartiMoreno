@@ -172,13 +172,16 @@ function dibujarCuadriculado(){
 
 //canvas x-y
 function dibujarImagen(){
-    const canvas =document.getElementById("myCanvas");
-    const ctx = canvas.getContext("2d");
+    var canvas =document.getElementById("myCanvas");
+    var ctx = canvas.getContext("2d");
 
     console.log(posX, posY);
-    const img= new Image();
+    var img= new Image();
     img.src = "images/auto.png";
+
+    canvas.width = canvas.width;
+
     img.onload =function(){
-        canvas.drawImage(img,posX,posY);
+        ctx.drawImage(img,posX,posY);
     }
 }
