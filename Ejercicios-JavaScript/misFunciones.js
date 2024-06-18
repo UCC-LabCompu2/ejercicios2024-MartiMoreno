@@ -109,6 +109,7 @@ function dibujar (event){
     canvas.onmouseup = function() {bandera=false};
     if (bandera){
         ctx.fillRect(posX, posY, 5, 5);
+        ctx.fill;
     }
 }
 function borrarCanvas(){
