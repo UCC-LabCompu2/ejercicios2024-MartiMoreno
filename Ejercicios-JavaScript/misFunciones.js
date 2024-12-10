@@ -183,5 +183,6 @@ function dibujarImagen(){
 
     img.onload =function(){
         ctx.drawImage(img,posX,posY);
+
     }
 }
