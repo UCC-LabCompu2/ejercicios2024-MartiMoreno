@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7264f780-a42f-4bad-842d-844775362273" name="Changes" comment="" />
+    <list default="true" id="7264f780-a42f-4bad-842d-844775362273" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicios-JavaScript/grados_radianes.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicios-JavaScript/grados_radianes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicios-JavaScript/misFunciones.js" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicios-JavaScript/misFunciones.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicios-JavaScript/mostrar_ocultar.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicios-JavaScript/mostrar_ocultar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicios-JavaScript/operacionesMatematicas.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicios-JavaScript/operacionesMatematicas.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,7 +86,7 @@
       <workItem from="1733781976554" duration="93000" />
       <workItem from="1733782541252" duration="100000" />
       <workItem from="1733839669956" duration="9777000" />
-      <workItem from="1733882458551" duration="16534000" />
+      <workItem from="1733882458551" duration="20136000" />
     </task>
     <servers />
   </component>
